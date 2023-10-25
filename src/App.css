@@ -1,3 +1,84 @@
-.App {
-  text-align: center;
+.App{
+    background-color: #FFFCF5;;
 }
+
+.nav-bar {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 111px;
+  }
+  
+  .menu {
+    align-items: center;
+    display: inline-flex;
+    gap: 30px;
+    font-family: "Inter-Regular", Helvetica;
+  }
+  
+  .heading {
+    display: flex;
+  justify-content: flex-end;
+  }
+  
+  .getStarted {
+    color: #000;
+    font-family: Poppins;
+    font-size: 13.714px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 118px;
+    height: 31px;
+    border-radius: 5px;
+    border: 3px solid #FE9563;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .menu-item {
+    color: #000;
+    font-family: Poppins;
+    font-size: 13.714px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .centre {
+    display: flex;
+  }
+
+
+
+
+
+  /* .FileSharing{
+    color: #455A64;
+    font-family: Poppins;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 126%;
+  } */
+
+.learn-more-button {
+    border-radius: 6px;
+    background: #455A64;
+
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    display: inline-flex;
+    padding: 9px 25px;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+
+  .ShortCards {
+    display: flex;
+  }

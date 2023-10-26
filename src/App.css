@@ -83,10 +83,6 @@
     line-height: 187.76%;
   }
 
-  .ShortCards {
-    display: flex;
-  }
-
   .SocialTree{
     margin-right: 290px;
     margin-left: auto;
@@ -104,6 +100,39 @@
 .RedPipe {
   color: #FE9C69;
   margin: 0 5px;
+}
+
+.ShortCards, .p-4 {
+  display: flex;
+  text-align: center;
+  border-radius: 44px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px; 
+}
+
+
+.BoxHead{
+  color: #37474F;
+font-family: Roboto;
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+line-height: 146%;
+}
+
+h5{
+  display: flex;
+  margin-top: 5px;
+  color: #535359;
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.5px;
 }
 
 

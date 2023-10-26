@@ -5,6 +5,9 @@ import NavBar from './components/NavBar.jsx';
 import FileSharingComponent from './components/FileSharingComponent';
 import CustomCard from './components/CustomCard';
 import Footer from './components/Footer.jsx';
+import Quick from './assets/quickAccess.svg'
+import Cross from './assets/cross.svg'
+import Easy from './assets/easy.svg';
 
 function App() {
   return (
@@ -15,21 +18,30 @@ function App() {
 
 
       <div className='ShortCards'>
-          <CustomCard width="363px" height="279.836px">
-            <div>
+          <CustomCard width="550px" height="250px">
+            <div className='BoxHead'>
+              <div>
+              <img src={Quick} alt='Quick Access'/></div>
               Quick Access
+              <h5>Feugiat primis ultrice a semper<br/> lacus cursus feugiat a primis ultrice a ligula risus auctor</h5>
             </div>
           </CustomCard>
 
-          <CustomCard width="363px" height="279.836px">
+          <CustomCard width="550px" height="250px">
+           <div className='BoxHead'>
            <div>
-             Quick Access
-           </div>
+              <img src={Cross} alt='Cross Platform'/></div>
+             Cross-Platform
+             <h5>Feugiat primis ultrice a semper<br/> lacus cursus feugiat a primis ultrice a ligula risus auctor</h5>
+             </div>
           </CustomCard>
 
-          <CustomCard width="363px" height="279.836px">
+          <CustomCard width="550px" height="250px">
+           <div className='BoxHead'>
            <div>
-             Quick Access
+              <img src={Easy} alt='Easy Integration'/></div>
+             Easy Integration
+             <h5>Feugiat primis ultrice a semper<br/> lacus cursus feugiat a primis ultrice a ligula risus auctor</h5>
            </div>
           </CustomCard>
         </div>

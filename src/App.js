@@ -8,6 +8,7 @@ import Footer from './components/Footer.jsx';
 import Quick from './assets/quickAccess.svg'
 import Cross from './assets/cross.svg'
 import Easy from './assets/easy.svg';
+import Women from './assets/mobileWomen.svg';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
 
 
       <div className='ShortCards'>
-          <CustomCard width="550px" height="250px">
+          <CustomCard width="470px" height="250px">
             <div className='BoxHead'>
               <div>
               <img src={Quick} alt='Quick Access'/></div>
@@ -27,7 +28,7 @@ function App() {
             </div>
           </CustomCard>
 
-          <CustomCard width="550px" height="250px">
+          <CustomCard width="470px" height="250px">
            <div className='BoxHead'>
            <div>
               <img src={Cross} alt='Cross Platform'/></div>
@@ -36,13 +37,30 @@ function App() {
              </div>
           </CustomCard>
 
-          <CustomCard width="550px" height="250px">
+          <CustomCard width="470px" height="250px">
            <div className='BoxHead'>
            <div>
               <img src={Easy} alt='Easy Integration'/></div>
              Easy Integration
              <h5>Feugiat primis ultrice a semper<br/> lacus cursus feugiat a primis ultrice a ligula risus auctor</h5>
            </div>
+          </CustomCard>
+        </div>
+
+
+        <div className='LongCard'>
+          <CustomCard width="1050px" height="450px">
+          <div className='WomenBox'>
+           <div>
+              <img src={Easy} alt='Easy Integration'/></div>
+             Easy Integration
+             <h5>Feugiat primis ultrice a semper<br/> lacus cursus feugiat a primis ultrice a ligula risus auctor</h5>
+           </div>
+
+
+
+
+          <img src={Women} alt='Mobile Women'/>
           </CustomCard>
         </div>
 

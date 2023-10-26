@@ -4,6 +4,7 @@ import NavBar from './components/NavBar.jsx';
 // import ImageComponent from './components/ImageComponent';
 import FileSharingComponent from './components/FileSharingComponent';
 import CustomCard from './components/CustomCard';
+import Footer from './components/Footer.jsx';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           </CustomCard>
         </div>
 
+           <Footer/>
     </div>
   );
 }

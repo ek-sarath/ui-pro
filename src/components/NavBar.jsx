@@ -18,7 +18,7 @@ const NavBar = () => {
 
       <div className="heading">
         <img src={logo} alt="Logo" className="h-8 w-8"/>
-        <h1 className="text-zinc-800 text-2xl font-bold font-['Istok Web']">COMU</h1>
+        <h2 className="text-zinc-800 text-2xl font-bold font-['Istok Web']">COMU</h2>
       </div>
 
       <div className="menu">

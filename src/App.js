@@ -18,7 +18,12 @@ import Mobile from './assets/MobileCard.svg';
 import WebHeading from './components/WebHeading';
 import Orange from './assets/OrangeRectangle.svg';
 import ShareMoment from './components/ShareMoment';
-import Group from './assets/GroupCard.svg';
+// import Group from './assets/GroupCard.svg';
+import UserData from './components/UserData';
+import Features from './components/Features';
+// import CustomerStories from './components/CustomerStories';
+import GotQn from './components/GotQn';
+import Story from './assets/Stories.svg';
 
 
 function App() {
@@ -143,9 +148,37 @@ function App() {
         </div>
 
         <ShareMoment/>
-        <img src={Group} alt='Group Card'/>
+        {/* <img src={Group} alt='Group Card'/> */}
 
-           <Footer/>
+
+        <div className='LongCard'>
+          <CustomCard width="1050px" height="450px">
+        <div className='CardWrite'>
+           <h3>Stories From Our Customers</h3>
+           <h6>Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus, blandit and cursus varius and magnis sapien</h6>
+            <img src={Story} alt="Story Card" className="StoryImage" />
+          </div>
+          </CustomCard>
+        </div>
+
+
+
+        <UserData/>
+        <Features/>
+
+        <div className='LongCard'>
+          <CustomCard width="1050px" height="250px">
+          <div className='WomenBox'>
+          </div>
+          < img src={Mobile} alt='Mobile Card'/>
+          </CustomCard>
+        </div>
+
+
+        <div><GotQn/></div>
+
+
+          <div><Footer/></div> 
     </div>
   );
 }

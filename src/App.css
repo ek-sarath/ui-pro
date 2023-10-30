@@ -161,8 +161,6 @@
 
 
 .LongCard{
-  display: flex;
-  text-align: center;
   border-radius: 44px;
   margin-left: 70px;
   margin-right: 40px;
@@ -264,6 +262,24 @@ line-height: 148.2%;
 letter-spacing: 0.5px;
 }
 
+
+h4{
+  width: 407px;
+  color: #000;
+font-family: Poppins;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: 126%;
+}
+
+.StoryImage{
+  width: 700px;
+  height: 300px;
+  flex-shrink: 0;
+  margin-left: 130px;
+  margin-top: 50px;
+}
 
 footer {
   background-color: #F7E6CB;

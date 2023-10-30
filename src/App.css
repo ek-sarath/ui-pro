@@ -274,12 +274,24 @@ line-height: 126%;
 }
 
 .StoryImage{
+  text-align: center;
   width: 700px;
   height: 300px;
   flex-shrink: 0;
   margin-left: 130px;
-  margin-top: 50px;
+  margin-top: 0px;
 }
+
+.StoryImage h3 {
+margin-top: 0px;
+}
+
+.StoryImage h6 {
+  margin-top: 0px;
+  }
+
+
+
 
 footer {
   background-color: #F7E6CB;

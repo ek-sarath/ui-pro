@@ -153,9 +153,10 @@ function App() {
 
         <div className='LongCard'>
           <CustomCard width="1050px" height="450px">
+
         <div className='CardWrite'>
            <h3>Stories From Our Customers</h3>
-           <h6>Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus, blandit and cursus varius and magnis sapien</h6>
+           {/* <h6>Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus, blandit and cursus varius and magnis sapien</h6> */}
             <img src={Story} alt="Story Card" className="StoryImage" />
           </div>
           </CustomCard>

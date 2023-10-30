@@ -236,8 +236,8 @@ h3{
   align-items: center;
   margin-left: 300px;
   margin-right: auto;
-  margin-top: 30px;
-  margin-bottom: 80px;
+  margin-top: 80px;
+  margin-bottom: 70px;
 }
 
 .SecurityHeading h3 {
@@ -290,6 +290,23 @@ margin-top: 0px;
   margin-top: 0px;
   }
 
+  .CustomerStories h3{
+    text-align: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: auto;
+    margin-left: 200px;
+  }
+
+  .CustomerStories h6{
+    text-align: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: auto;
+    margin-left: 200px;
+  }
+
+
 
   .SearchBox{
   text-align: center;
@@ -336,7 +353,16 @@ margin-left: 250px;
  }
 
   .GotQns{
+    margin-left: 140px;
+    margin-right: auto;
+    margin-top: 2px;
+    margin-bottom: 20px;
+  }
+
+
+  .UserData{
     margin-left: 0px;
+    margin-top: 60px;
   }
 
 

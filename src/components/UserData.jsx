@@ -21,8 +21,8 @@ const UserData = () => {
                 <img src={Play} alt='Play Store'/>
             </div>
             <div className="right-half">
-            <img src={User} alt='User Data' />
-            <img src={Users} alt='User Datas' />
+            <img src={User} alt='User Data' className="UserData" />
+            <img src={Users} alt='User Datas' className="UserDatas"/>
             </div>
         </div>
     );

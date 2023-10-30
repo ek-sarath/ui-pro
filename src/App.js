@@ -27,6 +27,9 @@ import Story from './assets/Stories.svg';
 import Frame from './assets/CharlieFrame.svg'
 import Play from './assets/PlayStore.svg';
 import SearchBox from './components/SeachBox';
+import CustomerStories from './components/CustomerStories';
+import MediumCard from './components/MediumCard';
+import Ans from './assets/Answers.svg';
 
 
 function App() {
@@ -156,11 +159,9 @@ function App() {
 
         <div className='LongCard'>
           <CustomCard width="1050px" height="450px">
-
         <div className='CardWrite'>
-           <h3>Stories From Our Customers</h3>
-           {/* <h6>Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus, blandit and cursus varius and magnis sapien</h6> */}
-            <img src={Story} alt="Story Card" className="StoryImage" />
+           <CustomerStories/>
+            <img src={Story} alt="Story Card" className="StoryImage"/>
           </div>
           </CustomCard>
         </div>
@@ -172,16 +173,17 @@ function App() {
 
         <div className='LongCard'>
           <CustomCard width="1050px" height="250px">
-          <div className='WomenBox'>
-          </div>
-          < img src={Mobile} alt='Mobile Card'/>
+           <MediumCard/>
           </CustomCard>
         </div>
 
 
-        <div><GotQn/></div>
+        <div>
+          <GotQn/>
+        <img src={Ans} alt="Answers" className="GotQns" />
+        </div>
 
-          <SearchBox/>
+     <SearchBox/>
 
         <div className='LongCards'>
           <CustomCard width="950px" height="520px">

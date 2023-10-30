@@ -233,7 +233,7 @@ h3{
 
 .SecurityHeading{
   text-align: center;
-  /* justify-content: center; */
+  align-items: center;
   margin-left: 300px;
   margin-right: auto;
   margin-top: 30px;
@@ -290,6 +290,114 @@ margin-top: 0px;
   margin-top: 0px;
   }
 
+
+  .SearchBox{
+  text-align: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 80px;
+  }
+
+  .SearchBox h3{
+    text-align: center;
+    align-items: center;
+    margin-left: 300px;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+.SearchInput{
+width: 555px;
+height: 50px;
+border-radius: 16px 0px 0px 16px;
+border: 0.5px solid #FE9563;
+background: #FFF;
+}
+
+.SearchInputContainer{
+display: flex;
+margin-left: 250px;
+}
+
+.SearchButton{
+  width: 210px;
+  height: 53.5px;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 0px 8px 8px 0px;
+  background: #FE9563;
+  color: #FFF;
+ font-family: Poppins;
+ font-size: 20.857px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 146.687%;
+ }
+
+  .GotQns{
+    margin-left: 0px;
+  }
+
+
+.LongCards{
+  border-radius: 44px;
+  margin-left: 120px;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px; 
+}
+
+  .CharlieFrame p {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .CharlieFrame h4 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+  }
+  
+
+.CharlieTab{
+  text-align: center;
+}
+
+.CharlieFrame .right-half{
+  text-align: center;
+  align-items: center;
+}
+
+
+.GetButton{
+  width: 160px;
+height: 40px;
+border: none;
+background: #FE9563;
+color: #F3FCFF;
+font-family: Roboto;
+font-size: 14.129px;
+font-style: normal;
+font-weight: 700;
+line-height: 146.687%;
+border-radius: 8px;
+text-align: center;
+}
+
+
+.PricingButton{
+width: 149px;
+height: 40px;
+margin-left: 8px;
+padding: 9px 34px 10px 35px;
+justify-content: center;
+align-items: center;
+border-radius: 8px;
+border: 2px solid #FE9563;
+}
 
 
 

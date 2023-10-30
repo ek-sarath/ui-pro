@@ -24,6 +24,9 @@ import Features from './components/Features';
 // import CustomerStories from './components/CustomerStories';
 import GotQn from './components/GotQn';
 import Story from './assets/Stories.svg';
+import Frame from './assets/CharlieFrame.svg'
+import Play from './assets/PlayStore.svg';
+import SearchBox from './components/SeachBox';
 
 
 function App() {
@@ -177,6 +180,29 @@ function App() {
 
 
         <div><GotQn/></div>
+
+          <SearchBox/>
+
+        <div className='LongCards'>
+          <CustomCard width="950px" height="520px">
+          <div className='CharlieFrame'>
+              <div className="left-half">
+                < img src={Frame} alt='Charlie Frame'/></div>
+
+              <div className="right-half">
+                <h4>Unlimited calling,<br/>texting and picture<br/>messaging</h4>
+                <p>Quaerat sodales sapien euismod blandit at vitae<br/>ipsum primis undo and cubilia laoreet augue and<br/>luctus magna dolor luctus at egestas sapien vitae<br/>nemo egestas
+                </p> 
+                <div className="CharlieTab">
+                 <button className="GetButton">Let's Get Started</button>
+                 <button className="PricingButton ">View Pricing</button>
+               </div>
+               <br/>14 days free trial <span className="RedPipe">|</span>Exclusive Support<span className="RedPipe">|</span>No Fee<br/>
+               <br/><img src={Play} alt='Play Store'/>
+           </div>
+           </div>
+          </CustomCard>
+        </div>
 
 
           <div><Footer/></div> 

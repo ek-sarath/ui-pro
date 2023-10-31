@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
-import Specs from '../assets/SpecsMan.svg';
-import LapMan from '../assets/LaptopMan.svg';
+import Specs from '../assets/specsMan.svg';
+import LapMan from '../assets/laptopMan.svg';
 
 
 const ShareMoment = () => {

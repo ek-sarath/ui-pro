@@ -1,12 +1,12 @@
 import React from "react";
 import "../App.css";
 import email from '../assets/email.svg'
-import facebook from '../assets/1.svg';
-import instagram from '../assets/2.svg';
-import twitter from '../assets/3.svg';
-import linkdin from '../assets/4.svg';
-import youtube from '../assets/5.svg';
-import other from '../assets/6.svg';
+import facebook from '../assets/facebook.svg';
+import instagram from '../assets/instagram.svg';
+import twitter from '../assets/twitter.svg';
+import linkdin from '../assets/linkdin.svg';
+import youtube from '../assets/youtube.svg';
+import other from '../assets/socialMedia.svg';
 import phoneNumber from '../assets/phoneNumber.svg'
 
 const Footer = () => {

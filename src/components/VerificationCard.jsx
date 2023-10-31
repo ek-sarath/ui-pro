@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
-import Verification from '../assets/VerificationCard.svg';
-import Play from '../assets/PlayStore.svg';
+import Verification from '../assets/verificationCard.svg';
+import Play from '../assets/playStore.svg';
 
 const VerificationCard = () => {
     return (

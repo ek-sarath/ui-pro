@@ -1,8 +1,8 @@
 import React from "react";
 import "../App.css";
-import User from '../assets/Frame 7.svg';
-import Users from '../assets/Frame 6.svg';
-import Play from '../assets/PlayStore.svg';
+import User from '../assets/frameSeven.svg';
+import Users from '../assets/frameSix.svg';
+import Play from '../assets/playStore.svg';
 
 const UserData = () => {
     return (

@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import Medium from '../assets/MediumCard.svg';
+import Medium from '../assets/mediumCard.svg';
 
 const MediumCard = () => {
     return (

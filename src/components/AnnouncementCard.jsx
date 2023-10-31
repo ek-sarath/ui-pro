@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import Announcement from '../assets/AnnouncementCard.svg';
+import Announcement from '../assets/announcementCard.svg';
 
 const AnnouncementCard = () => {
     return (

@@ -896,3 +896,14 @@ line-height: 18.277px;
 .ColumnTab{
 margin-right: 275px;
 }
+
+.SearchBox h3{
+  text-align: center;
+  color: #000;
+  font-family: Poppins;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 61.609px;
+  margin-right: 300px;
+}

@@ -126,7 +126,7 @@ function App() {
               <div className="left-half">
 
               <div className='MobileHead'>
-                  <h3>Work smarter withpowerful automation</h3><br/><br/><br/><br/>
+                  <h3>Work smarter withpowerful automation</h3><br/>
                   <h6>Quaerat sodales sapien euismod blandit purus apurus ipsum primis in cubilia laoreet augue luctusmagna dolor luctus and egestas sapien egestasvitae nemo volute
                    </h6>
                    <WhiteCard/><br/>
@@ -148,7 +148,7 @@ function App() {
 
 
         <div className='ShortCards'>
-          <CustomCard width="470px" height="250px">
+          <CustomCard width="363px" height="279.836px">
             <div className='BoxHead'>
               <div>
               <img src={Orange} alt='Orange Rectangle'/></div>
@@ -157,7 +157,7 @@ function App() {
             </div>
           </CustomCard>
 
-          <CustomCard width="470px" height="250px">
+          <CustomCard width="363px" height="279.836px">
            <div className='BoxHead'>
            <div>
            <img src={Orange} alt='Orange Rectangle'/></div>
@@ -166,7 +166,7 @@ function App() {
              </div>
           </CustomCard>
 
-          <CustomCard width="470px" height="250px">
+          <CustomCard width="363px" height="279.836px">
            <div className='BoxHead'>
            <div>
            <img src={Orange} alt='Orange Rectangle'/></div>
@@ -183,7 +183,8 @@ function App() {
               <div className="left-half">
 
               <div className='MobileHead'>
-                  <h3>Keep your favouritepeople close to you</h3><br/><br/><br/><br/>
+                  <h2>Keep your favourite people close to you</h2>
+
                   <h6>Fringilla risus, luctus mauris orci auctor euismodiaculis luctus magna purus pretium ligula purusundo quaerat tempor sapien rutrum maurisquaerat ultrice
                    <br/><br/>Quaerat sodales sapien euismod purus blandit
                    <br/><br/>Nemo ipsam egestas volute turpis dolores undoultrice aliquam quaerat at sodales sapien purus

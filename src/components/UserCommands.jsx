@@ -13,11 +13,10 @@ const UserCommands = () => {
 
       <div className="right-half">
         <h4>Make it simpler with Quick Commands</h4>
-        <p>Fringilla risus, luctus mauris orci auctor euismod iaculisluctus magna purus pretium ligula purus undo quaerattempor sapien rutrum mauris quaerat ultrice
-        </p>
-        <p>Quaerat sodales sapien euismod purus blandit</p>
-        <p>Nemo ipsam egestas volute turpis dolores undo ultricealiquam quaerat at sodales sapien purus
-        </p>
+        <h5>Fringilla risus, luctus mauris orci auctor euismod iaculisluctus magna purus pretium ligula purus undo quaerattempor sapien rutrum mauris quaerat ultrice<br/><br/>
+        Quaerat sodales sapien euismod purus blandit<br/><br/>
+        Nemo ipsam egestas volute turpis dolores undo ultricealiquam quaerat at sodales sapien purus
+        </h5>
 
         <div className="CharlieTabs">
           <button className="GetButton">Let's Get Started</button>

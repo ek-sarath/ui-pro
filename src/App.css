@@ -315,7 +315,7 @@ margin-left: 10px;
 
 
 
-.WomenHead{
+/* .WomenHead{
   color: #37474F;
 font-family: Roboto;
 font-size: 17px;
@@ -331,7 +331,7 @@ line-height: 146%;
   margin-right: 10px;
   margin-top: 0px;
   margin-bottom: 0px;
-}
+} */
 
 
 
@@ -415,31 +415,15 @@ letter-spacing: 0.442px;
 }
 
 
-h4{
-  width: 407px;
-  color: #000;
-font-family: Poppins;
-font-size: 42px;
-font-style: normal;
-font-weight: 700;
-line-height: 126%;
-}
 
 
-.whiteCard{
-  display: flex;
-  margin-left: 40px;
-  margin-top: 0px;
-  text-align: left;
-  width: 299px;
-  height: 73px;
-  flex-shrink: 0;
-  border-radius: 13px;
-  background: #FFF;
-  box-shadow: 0px 9px 17px 0px rgba(0, 0, 0, 0.09);
-}
+
+
+/*LargeCard-Work Smarter*/
 
 .MobileHead h3 {
+  width: 459px;
+  height: 109px;
 text-align: left;
 margin-left: 40px;
 color: #000;
@@ -466,6 +450,20 @@ margin-top: 10px;
   line-height: 148.2%;
   letter-spacing: 0.5px;
   width: 395px;
+  height: 100px;
+}
+
+.whiteCard{
+  display: flex;
+  margin-left: 40px;
+  margin-top: 0px;
+  text-align: left;
+  width: 299px;
+  height: 73px;
+  flex-shrink: 0;
+  border-radius: 13px;
+  background: #FFF;
+  box-shadow: 0px 9px 17px 0px rgba(0, 0, 0, 0.09);
 }
 
 
@@ -473,6 +471,51 @@ margin-top: 10px;
 margin-top: 10px;
 margin-left: 10px;
 }
+
+
+
+
+
+.AnnouncementCard h4{
+  color: #353642;
+font-family: Poppins;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: 52.92px;
+width: 459px;
+height: 103px;
+flex-shrink: 0;
+}
+
+
+.AnnouncementCard h5{
+  text-align: left;
+  color: #393939;
+font-family: Roboto;
+font-size: 16.67px;
+font-style: normal;
+font-weight: 500;
+line-height: 24.705px;
+letter-spacing: 0.5px;
+width: 449px;
+}
+
+
+.MobileHead h2 {
+  text-align: left;
+  width: 459px;
+  height: 96px;
+  color: #424242;
+font-family: Poppins;
+font-size: 38.399px;
+font-style: normal;
+font-weight: 700;
+line-height: 48.382px;
+margin-left: 35px;
+margin-top: 120px;
+}
+
 
 .StoryImage{
   text-align: center;
@@ -494,6 +537,16 @@ margin-top: 0px;
   .CustomerStories h3{
     text-align: center;
     align-items: center;
+    width: 618px;
+height: 54px;
+flex-shrink: 0;
+    color: #000;
+font-family: Poppins;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
     margin-top: 0px;
     margin-bottom: auto;
     margin-left: 200px;
@@ -502,6 +555,15 @@ margin-top: 0px;
   .CustomerStories h6{
     text-align: center;
     align-items: center;
+    color: #393939;
+    width: 625px;
+text-align: center;
+font-family: Roboto;
+font-size: 16.67px;
+font-style: normal;
+font-weight: 500;
+line-height: 148.2%; /* 24.705px */
+letter-spacing: 0.5px;
     margin-top: 0px;
     margin-bottom: auto;
     margin-left: 200px;

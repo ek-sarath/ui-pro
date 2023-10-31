@@ -47,7 +47,7 @@ function App() {
     <div className="App relative">
       <NavBar />
       {/* <ImageComponent/> */}
-      
+
         <FrontPage />
 
 
@@ -55,7 +55,7 @@ function App() {
           <CustomCard width="363px" height="279.836px">
             <div className='BoxHead'>
               <div>
-              <img src={Quick} alt='Quick Access'/></div>
+              <img src={Quick} alt='Quick Access' className='ShortcardIcons'/></div>
               Quick Access
               <h5>Feugiat primis ultrice a semper lacus cursus feugiat a primis ultrice a ligula risus auctor</h5>
             </div>
@@ -64,7 +64,7 @@ function App() {
           <CustomCard width="363px" height="279.836px">
            <div className='BoxHead'>
            <div>
-              <img src={Cross} alt='Cross Platform'/></div>
+              <img src={Cross} alt='Cross Platform' className='ShortcardIcons'/></div>
              Cross-Platform
              <h5>Feugiat primis ultrice a semper lacus cursus feugiat a primis ultrice a ligula risus auctor</h5>
              </div>
@@ -73,8 +73,8 @@ function App() {
           <CustomCard width="363px" height="279.836px">
            <div className='BoxHead'>
            <div>
-              <img src={Easy} alt='Easy Integration'/></div>
-             Easy Integration
+              <img src={Easy} alt='Easy Integration'  className='ShortcardIcons'/></div>
+              Easy Integration
              <h5>Feugiat primis ultrice a semper lacus cursus feugiat a primis ultrice a ligula risus auctor</h5>
            </div>
           </CustomCard>

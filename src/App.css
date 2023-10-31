@@ -32,7 +32,7 @@
   .heading {
     display: flex;
   justify-content: flex-end;
-  margin-left: 60px;
+  margin-left: 85px;
   }
   
   .getStarted {
@@ -73,7 +73,7 @@
 
   .LeftFrontPage{
     margin-top: 80px;
-    margin-left: 80px;
+    margin-left: 90px;
     margin-right: 61.49px;
  }
 
@@ -210,9 +210,7 @@
 
 
   
-  .LearnMoreButton + img {
-    margin-top: 30px;
-  }
+ 
 
 
 
@@ -226,6 +224,38 @@
   margin-top: 40px;
   margin-bottom: 40px; 
 }
+
+.BoxHead{
+  color: #37474F;
+font-family: Roboto;
+font-size: 17.864px;
+font-style: normal;
+font-weight: 700;
+line-height: 146.687%;
+}
+
+h5{
+  display: flex;
+  margin-top: 5px;
+  color: #535359;
+text-align: center;
+font-family: Poppins;
+font-size: 16.67px;
+font-style: normal;
+font-weight: 500;
+line-height: 24.455px;
+letter-spacing: 0.5px;
+}
+
+.ShortcardIcons{
+  width: 76px;
+  height: 76px;
+  flex-shrink: 0;
+}
+
+
+
+
 
 
 .AnnouncementCard{
@@ -258,28 +288,10 @@
   margin-bottom: 30px; 
 }
 
-.BoxHead{
-  color: #37474F;
-font-family: Roboto;
-font-size: 17px;
-font-style: normal;
-font-weight: 700;
-line-height: 146%;
-}
 
 
-h5{
-  display: flex;
-  margin-top: 5px;
-  color: #535359;
-text-align: center;
-font-family: Poppins;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.5px;
-}
+
+
 
 .WomenHead{
   color: #37474F;

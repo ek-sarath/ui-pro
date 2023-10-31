@@ -2,7 +2,9 @@ import React from 'react';
 import './App.css';
 import NavBar from './components/NavBar.jsx';
 // import ImageComponent from './components/ImageComponent';
-import FileSharingComponent from './components/FileSharingComponent';
+
+
+import FrontPage from './components/FrontPage';
 import CustomCard from './components/CustomCard';
 import Footer from './components/Footer.jsx';
 import Quick from './assets/quickAccess.svg'
@@ -45,7 +47,8 @@ function App() {
     <div className="App relative">
       <NavBar />
       {/* <ImageComponent/> */}
-        <FileSharingComponent />
+      
+        <FrontPage />
 
 
       <div className='ShortCards'>

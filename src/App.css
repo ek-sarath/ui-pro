@@ -164,8 +164,8 @@
   border-radius: 44px;
   margin-left: 70px;
   margin-right: 40px;
-  margin-top: 20px;
-  margin-bottom: 20px; 
+  margin-top: 80px;
+  margin-bottom: 30px; 
 }
 
 .BoxHead{
@@ -176,6 +176,7 @@ font-style: normal;
 font-weight: 700;
 line-height: 146%;
 }
+
 
 h5{
   display: flex;
@@ -207,6 +208,44 @@ line-height: 146%;
   margin-top: 0px;
   margin-bottom: 0px;
 }
+
+.TextPara{
+  display: flex;
+  text-align: left;
+}
+
+.MessageIcon{
+  margin-top: 14px;
+  margin-bottom: auto;
+  margin-left: 10px;
+}
+
+.TextPara h2{
+  color: #37474F;
+font-family: Poppins;
+font-size: 17.359px;
+font-style: normal;
+font-weight: 700;
+line-height: 148.2%;
+margin-bottom: 10px;
+margin-left: 10px;
+}
+
+.TextPara h5{
+width: 278px;
+text-align: left;
+color: #535359;
+font-family: Poppins;
+font-size: 16.67px;
+font-style: normal;
+font-weight: 500;
+line-height: 148.2%;
+letter-spacing: 0.5px;
+margin-top: 10px;
+margin-left: 10px;
+}
+
+
 
 h2{
   color: #000;
@@ -271,6 +310,55 @@ font-size: 42px;
 font-style: normal;
 font-weight: 700;
 line-height: 126%;
+}
+
+
+.whiteCard{
+  display: flex;
+  margin-left: 40px;
+  margin-top: 0px;
+  text-align: left;
+  width: 299px;
+  height: 73px;
+  flex-shrink: 0;
+  border-radius: 13px;
+  background: #FFF;
+  box-shadow: 0px 9px 17px 0px rgba(0, 0, 0, 0.09);
+}
+
+.MobileHead h3 {
+text-align: left;
+margin-left: 40px;
+color: #000;
+font-family: Poppins;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: 126%; 
+width: 459px;
+margin-top: 10px;
+}
+
+
+.MobileHead h6 {
+  text-align: left;
+  align-items: left;
+  margin-left: 40px;
+  margin-top: 0px;
+  color: #393939;
+  font-family: Roboto;
+  font-size: 16.67px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 148.2%;
+  letter-spacing: 0.5px;
+  width: 395px;
+}
+
+
+.IconImages{
+margin-top: 10px;
+margin-left: 10px;
 }
 
 .StoryImage{
@@ -395,6 +483,42 @@ margin-left: 250px;
 .CharlieFrame .right-half{
   text-align: center;
   align-items: center;
+}
+
+
+
+h7{
+  color: #000;
+  font-family: Roboto;
+  font-size: 15.725px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 153.2%;
+}
+
+h8{
+  color: #000;
+font-family: Roboto;
+font-size: 14.736px;
+font-style: normal;
+font-weight: 500;
+line-height: 153.2%
+}
+
+.SendMessage{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  width: 33px;
+height: 33px;
+flex-shrink: 0;
+  border-radius: 8px;
+}
+
+
+.GroupContainer{
+margin-left: 10px;
+margin-top: 10px;
 }
 
 

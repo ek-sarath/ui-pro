@@ -12,6 +12,7 @@ import Women from './assets/mobileWomen.svg';
 import AnnouncementCard from './components/AnnouncementCard';
 import Message from './assets/messageIcon.svg';
 import Emoji from './assets/emojiIcon.svg';
+import Spam from './assets/spamIcon.svg';
 import SecurityHeading from './components/SecurityHeading';
 import VerificationCard from './components/VerificationCard';
 import Mobile from './assets/MobileCard.svg';
@@ -30,6 +31,12 @@ import SearchBox from './components/SeachBox';
 import CustomerStories from './components/CustomerStories';
 import MediumCard from './components/MediumCard';
 import Ans from './assets/Answers.svg';
+// import GroupMsg from './assets/SendGroupMsg.svg';
+// import LowData from './assets/LowDataUsage.svg';
+import Order from './assets/orderPhoto.svg';
+import SittingWomen from './assets/SittingWomen.svg';
+import WhiteCard from './components/WhiteCard';
+import WhiteCard2 from './components/WhiteCard2';
 
 
 function App() {
@@ -74,21 +81,35 @@ function App() {
            <AnnouncementCard/> 
 
 
-        <div className='LongCard'>
-          <CustomCard width="1050px" height="450px">
-          <div className='WomenBox'>
-           <div>
-              <img src={Message} alt='Message Icon'/></div>
-              Text, Voice & Video Calls
-             <h5>Ligula risus auctor tempus dolor<br/> feugiat undo lacinia purus lipsum<br/> quaerat primis ultrice tellus and<br/> viverra purus suscipit</h5>
-          
-             <div>
-              <img src={Emoji} alt='Emoji Icon'/></div>
-              Stickers, Emojis, Themes
-             <h5>Ligula risus auctor tempus dolor<br/> feugiat undo lacinia purus lipsum<br/> quaerat primis ultrice tellus and<br/> viverra purus suscipit</h5>
-          
+           <div className='LongCard'>
+          <CustomCard width="1050px" height="560px">
+          <div className='CharlieFrame'>
+              <div className="left-half">
+
+              <div className='TextPara'>
+                  <img src={Message} alt='Message icon' className='MessageIcon'/>
+                   <div> <h2>Stickers, Emojis, Themes</h2>
+                  <h5>Ligula risus auctor tempus dolor<br/>feugiat undo lacinia purus lipsum<br/>quaerat primis ultrice tellus and<br/>viverra purus suscipit
+                   </h5> </div></div>
+
+                   <div className='TextPara'>
+                  <img src={Emoji} alt='Emoji icon' className='MessageIcon'/>
+                   <div> <h2>Text,Voice & Video Calls</h2>
+                   <h5>Ligula risus auctor tempus dolor<br/>feugiat undo lacinia purus lipsum<br/>quaerat primis ultrice tellus and<br/>viverra purus suscipit
+                   </h5> </div></div>
+
+                   <div className='TextPara'>
+                  <img src={Spam} alt='Spam icon' className='MessageIcon'/>
+                   <div> <h2>Spam Protection</h2>
+                   <h5>Ligula risus auctor tempus dolor<br/>feugiat undo lacinia purus lipsum<br/>quaerat primis ultrice tellus and<br/>viverra purus suscipit
+                   </h5> </div></div>
+
+               </div>
+
+              <div className="right-half">
+              < img src={Women} alt='Mobile Women'/>
            </div>
-          < img src={Women} alt='Mobile Women'/>
+           </div>
           </CustomCard>
         </div>
 
@@ -96,18 +117,24 @@ function App() {
         <VerificationCard/>
 
         <div className='LongCard'>
-          <CustomCard width="1050px" height="450px">
-          <div className='WomenBox'>
-             Work smarter with powerful automation
-             <h5>Ligula risus auctor tempus dolor<br/> feugiat undo lacinia purus lipsum<br/> quaerat primis ultrice tellus and<br/> viverra purus suscipit</h5>
-          
-             <div>
-              <img src={Emoji} alt='Emoji Icon'/></div>
-              Stickers, Emojis, Themes
-             <h5>Ligula risus auctor tempus dolor<br/> feugiat undo lacinia purus lipsum<br/> quaerat primis ultrice tellus and<br/> viverra purus suscipit</h5>
-          
+          <CustomCard width="1050px" height="550px">
+          <div className='CharlieFrame'>
+              <div className="left-half">
+
+              <div className='MobileHead'>
+                  <h3>Work smarter with<br/>powerful automation</h3><br/>
+                  <h6>Quaerat sodales sapien euismod blandit purus a<br/>purus ipsum primis in cubilia laoreet augue luctus<br/>magna dolor luctus and egestas sapien egestas<br/>vitae nemo volute
+                   </h6>
+                   <WhiteCard/><br/>
+                   <WhiteCard2/>
+                   </div>
+               </div>
+
+              <div className="right-half">
+                 <div className='IconImages'><img src={Order} alt='Order Photo'/>
+                <img src={SittingWomen} alt='Sitting Women'/></div>
            </div>
-          < img src={Mobile} alt='Mobile Card'/>
+           </div>
           </CustomCard>
         </div>
 

@@ -239,22 +239,23 @@ function App() {
      <SearchBox/>
 
         <div className='LongCards'>
-          <CustomCard width="950px" height="561px">
-          <div className='CharlieFrame'>
+          <CustomCard width="1050px" height="561px">
+          <div className='CharlieFrames'>
               <div className="left-half">
                 < img src={Frame} alt='Charlie Frame'/></div>
 
               <div className="right-half">
+                <div className='LastCard'>
                 <h4>Unlimited calling,texting and picturemessaging</h4>
                 <p>Quaerat sodales sapien euismod blandit at vitaeipsum primis undo and cubilia laoreet augue andluctus magna dolor luctus at egestas sapien vitaenemo egestas
                 </p> 
-                <div className="CharlieTab">
+                <div className="CharlieTablets">
                  <button className="GetButton">Let's Get Started</button>
-                 <button className="PricingButton ">View Pricing</button>
-               </div>
+                 <button className="PricingButton ">View Pricing</button><br/>
                <br/>14 days free trial <span className="RedPipe">|</span>Exclusive Support<span className="RedPipe">|</span>No Fee
-              
               <br/><br/><img src={Play} alt='Play Store'/>
+              </div>
+              </div>
            </div>
            </div>
           </CustomCard>

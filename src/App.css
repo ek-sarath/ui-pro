@@ -562,7 +562,7 @@ font-family: Roboto;
 font-size: 16.67px;
 font-style: normal;
 font-weight: 500;
-line-height: 148.2%; /* 24.705px */
+line-height: 24.705px;
 letter-spacing: 0.5px;
     margin-top: 0px;
     margin-bottom: auto;
@@ -731,6 +731,30 @@ border: 2px solid #FE9563;
 }
 
 
+.AnnouncementCard h3{
+  text-align: left;
+  width: 407px;
+  height: 106px;
+  color: #000;
+font-family: Poppins;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: 52.92px;
+  
+}
+
+.AnnouncementCard h6{
+  width: 426px;
+  color: #393939;
+font-family: Roboto;
+font-size: 16.67px;
+font-style: normal;
+font-weight: 500;
+line-height: 148.2%; /* 24.705px */
+letter-spacing: 0.5px;
+}
+
 
 footer {
   background-color: #F7E6CB;
@@ -811,9 +835,47 @@ line-height: 146.687%; /* 20.725px */
 }
 
 
-.OlmosTabs{
-text-align: center;
-align-items: center;
+
+.LastCard h4{
+  margin-top: 0px;
+  margin-left: 30px;
+  text-align: left;
+  width: 499px;
+  height: 159px;
+  color: #000;
+font-family: Poppins;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: 52.92px;
+letter-spacing: 0.42px;
+}
+
+.LastCard p{
+  margin-top: 0px;
+  margin-left: 30px;
+  text-align: left;
+  width: 463px;
+  height: 104px;
+  color: #393939;
+  font-family: Poppins;
+  font-size: 16.67px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 153.2%; /* 25.538px */
+  letter-spacing: 0.5px;
 }
 
 
+
+.CharlieTablets{
+text-align: left;
+align-items: left;
+margin-left: 30px;
+color: #000;
+font-family: Roboto;
+font-size: 12.492px;
+font-style: normal;
+font-weight: 500;
+line-height: 19.138px;
+}

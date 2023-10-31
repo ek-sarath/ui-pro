@@ -16,7 +16,7 @@
 //                         <img src={Easy} alt='Easy Integration' />
 //                     </div>
 //                     Easy Integration
-//                     <h5>Feugiat primis ultrice a semper<br/> lacus cursus feugiat a primis ultrice a ligula risus auctor</h5>
+//                     <h5>Feugiat primis ultrice a semper lacus cursus feugiat a primis ultrice a ligula risus auctor</h5>
 //                 </div>
 //              </div>
 //             </div>

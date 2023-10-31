@@ -49,30 +49,30 @@ function App() {
 
 
       <div className='ShortCards'>
-          <CustomCard width="470px" height="250px">
+          <CustomCard width="363px" height="279.836px">
             <div className='BoxHead'>
               <div>
               <img src={Quick} alt='Quick Access'/></div>
               Quick Access
-              <h5>Feugiat primis ultrice a semper<br/> lacus cursus feugiat a primis ultrice a ligula risus auctor</h5>
+              <h5>Feugiat primis ultrice a semper lacus cursus feugiat a primis ultrice a ligula risus auctor</h5>
             </div>
           </CustomCard>
 
-          <CustomCard width="470px" height="250px">
+          <CustomCard width="363px" height="279.836px">
            <div className='BoxHead'>
            <div>
               <img src={Cross} alt='Cross Platform'/></div>
              Cross-Platform
-             <h5>Feugiat primis ultrice a semper<br/> lacus cursus feugiat a primis ultrice a ligula risus auctor</h5>
+             <h5>Feugiat primis ultrice a semper lacus cursus feugiat a primis ultrice a ligula risus auctor</h5>
              </div>
           </CustomCard>
 
-          <CustomCard width="470px" height="250px">
+          <CustomCard width="363px" height="279.836px">
            <div className='BoxHead'>
            <div>
               <img src={Easy} alt='Easy Integration'/></div>
              Easy Integration
-             <h5>Feugiat primis ultrice a semper<br/> lacus cursus feugiat a primis ultrice a ligula risus auctor</h5>
+             <h5>Feugiat primis ultrice a semper lacus cursus feugiat a primis ultrice a ligula risus auctor</h5>
            </div>
           </CustomCard>
         </div>
@@ -83,26 +83,26 @@ function App() {
 
 
            <div className='LongCard'>
-          <CustomCard width="1050px" height="560px">
+          <CustomCard width="1050px" height="791px">
           <div className='CharlieFrame'>
               <div className="left-half">
 
               <div className='TextPara'>
                   <img src={Message} alt='Message icon' className='MessageIcon'/>
                    <div> <h2>Stickers, Emojis, Themes</h2>
-                  <h5>Ligula risus auctor tempus dolor<br/>feugiat undo lacinia purus lipsum<br/>quaerat primis ultrice tellus and<br/>viverra purus suscipit
+                  <h5>Ligula risus auctor tempus dolorfeugiat undo lacinia purus lipsumquaerat primis ultrice tellus andviverra purus suscipit
                    </h5> </div></div>
 
                    <div className='TextPara'>
                   <img src={Emoji} alt='Emoji icon' className='MessageIcon'/>
                    <div> <h2>Text,Voice & Video Calls</h2>
-                   <h5>Ligula risus auctor tempus dolor<br/>feugiat undo lacinia purus lipsum<br/>quaerat primis ultrice tellus and<br/>viverra purus suscipit
+                   <h5>Ligula risus auctor tempus dolorfeugiat undo lacinia purus lipsumquaerat primis ultrice tellus andviverra purus suscipit
                    </h5> </div></div>
 
                    <div className='TextPara'>
                   <img src={Spam} alt='Spam icon' className='MessageIcon'/>
                    <div> <h2>Spam Protection</h2>
-                   <h5>Ligula risus auctor tempus dolor<br/>feugiat undo lacinia purus lipsum<br/>quaerat primis ultrice tellus and<br/>viverra purus suscipit
+                   <h5>Ligula risus auctor tempus dolorfeugiat undo lacinia purus lipsumquaerat primis ultrice tellus andviverra purus suscipit
                    </h5> </div></div>
 
                </div>
@@ -118,13 +118,13 @@ function App() {
         <VerificationCard/>
 
         <div className='LongCard'>
-          <CustomCard width="1050px" height="550px">
+          <CustomCard width="1050px" height="791px">
           <div className='CharlieFrame'>
               <div className="left-half">
 
               <div className='MobileHead'>
-                  <h3>Work smarter with<br/>powerful automation</h3><br/>
-                  <h6>Quaerat sodales sapien euismod blandit purus a<br/>purus ipsum primis in cubilia laoreet augue luctus<br/>magna dolor luctus and egestas sapien egestas<br/>vitae nemo volute
+                  <h3>Work smarter withpowerful automation</h3><br/><br/><br/><br/>
+                  <h6>Quaerat sodales sapien euismod blandit purus apurus ipsum primis in cubilia laoreet augue luctusmagna dolor luctus and egestas sapien egestasvitae nemo volute
                    </h6>
                    <WhiteCard/><br/>
                    <WhiteCard2/>
@@ -150,7 +150,7 @@ function App() {
               <div>
               <img src={Orange} alt='Orange Rectangle'/></div>
               Friendly Interface
-              <h5>Feugiat primis ultrice a semper<br/> lacus cursus feugiat a primis ultrice a ligula risus auctor</h5>
+              <h5>Feugiat primis ultrice a semper lacus cursus feugiat a primis ultrice a ligula risus auctor</h5>
             </div>
           </CustomCard>
 
@@ -159,7 +159,7 @@ function App() {
            <div>
            <img src={Orange} alt='Orange Rectangle'/></div>
            Extremely Flexible
-             <h5>Feugiat primis ultrice a semper<br/> lacus cursus feugiat a primis ultrice a ligula risus auctor</h5>
+             <h5>Feugiat primis ultrice a semper lacus cursus feugiat a primis ultrice a ligula risus auctor</h5>
              </div>
           </CustomCard>
 
@@ -168,23 +168,22 @@ function App() {
            <div>
            <img src={Orange} alt='Orange Rectangle'/></div>
            Strong Encryption
-             <h5>Feugiat primis ultrice a semper<br/> lacus cursus feugiat a primis ultrice a ligula risus auctor</h5>
+             <h5>Feugiat primis ultrice a semper lacus cursus feugiat a primis ultrice a ligula risus auctor</h5>
            </div>
           </CustomCard>
         </div>
 
 
         <div className='LongCard'>
-          <CustomCard width="1050px" height="550px">
+          <CustomCard width="1050px" height="791px">
           <div className='CharlieFrame'>
               <div className="left-half">
 
               <div className='MobileHead'>
-                  <h3>Keep your favourite<br/>people close to you</h3><br/><br/>
-                  <h6>Fringilla risus, luctus mauris orci auctor euismod<br/>iaculis luctus magna purus pretium ligula purus<br/>undo quaerat tempor sapien rutrum mauris<br/>quaerat ultrice
-                   </h6>
-                   <h6>Quaerat sodales sapien euismod purus blandit</h6>
-                   <h6>Nemo ipsam egestas volute turpis dolores undo<br/>ultrice aliquam quaerat at sodales sapien purus
+                  <h3>Keep your favouritepeople close to you</h3><br/><br/><br/><br/>
+                  <h6>Fringilla risus, luctus mauris orci auctor euismodiaculis luctus magna purus pretium ligula purusundo quaerat tempor sapien rutrum maurisquaerat ultrice
+                   <br/><br/>Quaerat sodales sapien euismod purus blandit
+                   <br/><br/>Nemo ipsam egestas volute turpis dolores undoultrice aliquam quaerat at sodales sapien purus
                    </h6>
                    </div>
                </div>
@@ -208,10 +207,10 @@ function App() {
 
 
         <div className='LongCard'>
-          <CustomCard width="1050px" height="450px">
+          <CustomCard width="1050px" height="621px">
         <div className='CardWrite'>
            <CustomerStories/>
-            <img src={Story} alt="Story Card" className="StoryImage"/>
+            <br/><img src={Story} alt="Story Card" className="StoryImage"/>
           </div>
           </CustomCard>
         </div>
@@ -236,21 +235,22 @@ function App() {
      <SearchBox/>
 
         <div className='LongCards'>
-          <CustomCard width="950px" height="520px">
+          <CustomCard width="950px" height="561px">
           <div className='CharlieFrame'>
               <div className="left-half">
                 < img src={Frame} alt='Charlie Frame'/></div>
 
               <div className="right-half">
-                <h4>Unlimited calling,<br/>texting and picture<br/>messaging</h4>
-                <p>Quaerat sodales sapien euismod blandit at vitae<br/>ipsum primis undo and cubilia laoreet augue and<br/>luctus magna dolor luctus at egestas sapien vitae<br/>nemo egestas
+                <h4>Unlimited calling,texting and picturemessaging</h4>
+                <p>Quaerat sodales sapien euismod blandit at vitaeipsum primis undo and cubilia laoreet augue andluctus magna dolor luctus at egestas sapien vitaenemo egestas
                 </p> 
                 <div className="CharlieTab">
                  <button className="GetButton">Let's Get Started</button>
                  <button className="PricingButton ">View Pricing</button>
                </div>
-               <br/>14 days free trial <span className="RedPipe">|</span>Exclusive Support<span className="RedPipe">|</span>No Fee<br/>
-               <br/><img src={Play} alt='Play Store'/>
+               <br/>14 days free trial <span className="RedPipe">|</span>Exclusive Support<span className="RedPipe">|</span>No Fee
+              
+              <br/><br/><img src={Play} alt='Play Store'/>
            </div>
            </div>
           </CustomCard>

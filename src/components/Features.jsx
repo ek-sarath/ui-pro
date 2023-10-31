@@ -4,7 +4,7 @@ import "../App.css";
 const Features = () => {
     return (
         <div className='SecurityHeading'>
-           <h3>Discover powerful features<br/> to boost your productivity</h3>
+           <h3>Discover powerful features to boost your productivity</h3>
         </div>
     );
 };

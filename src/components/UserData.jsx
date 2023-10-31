@@ -8,17 +8,17 @@ const UserData = () => {
     return (
         <div className='AnnouncementCard'>
             <div className="left-half">
-            <h4>No collection of<br/> user data. No Ads</h4>
+            <h4>No collection of user data. No Ads</h4>
                 <p>
-                Aliqum mullam blandit tempor sapien gravida at<br/>donec ipsum porta justo. Velna vitae auctor and<br/>congue magna impedit luctus dolor volute
+                Aliqum mullam blandit tempor sapien gravida atdonec ipsum porta justo. Velna vitae auctor andcongue magna impedit luctus dolor volute
                 </p> 
                 <p>
-                Aliqum mullam blandit tempor sapien gravida<br/>at donec ipsum porta justo. Velna vitae auctor<br/>and congue magna impedit luctus dolor volute
+                Aliqum mullam blandit tempor sapien gravidaat donec ipsum porta justo. Velna vitae auctorand congue magna impedit luctus dolor volute
                 </p>
                 <p>
-                Aliqum mullam blandit tempor sapien gravida at<br/>donec ipsum porta justo. Velna vitae auctor and<br/>congue magna impedit luctus dolor volute
-                </p> <br/>
-                <img src={Play} alt='Play Store'/>
+                Aliqum mullam blandit tempor sapien gravida atdonec ipsum porta justo. Velna vitae auctor andcongue magna impedit luctus dolor volute
+                </p> 
+                <br/><img src={Play} alt='Play Store'/>
             </div>
             <div className="right-half">
             <img src={User} alt='User Data' className="UserData" />

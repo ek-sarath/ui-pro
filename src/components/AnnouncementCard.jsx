@@ -9,10 +9,10 @@ const AnnouncementCard = () => {
                 <img src={Announcement} alt='Announcement Card' />
             </div>
             <div className="right-half">
-                <h1>Share files, media,<br/> and locations</h1>
+                <h1>Share files, media, and locations</h1>
                 <p>
-                    Quaerat sodales sapien euismod blandit purus a<br/> purus ipsum primis in cubilia laoreet augue luctus<br/> magna dolor luctus and egestas sapien egestas<br/> vitae nemo volute<br/><br/><br/>
-                    Quaerat sodales sapien euismod blandit at vitae<br/> ipsum primis undo and cubilia laoreet augue and<br/> luctus magna dolor luctus at egestas sapien vitae<br/> nemo egestas volute and turpis dolores aliquam<br/> quaerat sodales a sapien
+                    Quaerat sodales sapien euismod blandit purus a purus ipsum primis in cubilia laoreet augue luctus magna dolor luctus and egestas sapien egestas vitae nemo volute</p><br/>
+                   <p> Quaerat sodales sapien euismod blandit at vitae ipsum primis undo and cubilia laoreet augue and luctus magna dolor luctus at egestas sapien vitae nemo egestas volute and turpis dolores aliquam quaerat sodales a sapien
                 </p>
             </div>
         </div>

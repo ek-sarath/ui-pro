@@ -15,7 +15,7 @@ import Emoji from './assets/emojiIcon.svg';
 import Spam from './assets/spamIcon.svg';
 import SecurityHeading from './components/SecurityHeading';
 import VerificationCard from './components/VerificationCard';
-import Mobile from './assets/MobileCard.svg';
+// import Mobile from './assets/MobileCard.svg';
 import WebHeading from './components/WebHeading';
 import Orange from './assets/OrangeRectangle.svg';
 import ShareMoment from './components/ShareMoment';
@@ -37,6 +37,7 @@ import Order from './assets/orderPhoto.svg';
 import SittingWomen from './assets/SittingWomen.svg';
 import WhiteCard from './components/WhiteCard';
 import WhiteCard2 from './components/WhiteCard2';
+import UserCommands from './components/UserCommands';
 
 
 function App() {
@@ -131,15 +132,16 @@ function App() {
                </div>
 
               <div className="right-half">
-                 <div className='IconImages'><img src={Order} alt='Order Photo'/>
-                <img src={SittingWomen} alt='Sitting Women'/></div>
+                 <div className='IconPaste'>
+                  <img src={Order} alt='Order Card'/>
+                <img src={SittingWomen} alt='Sitting Paste'/></div>
            </div>
            </div>
           </CustomCard>
         </div>
 
-
-        <WebHeading/>
+              <UserCommands/>
+              <WebHeading/>
 
 
         <div className='ShortCards'>
@@ -173,12 +175,33 @@ function App() {
 
 
         <div className='LongCard'>
-          <CustomCard width="1050px" height="450px">
-          <div className='WomenBox'>
-          </div>
-          < img src={Mobile} alt='Mobile Card'/>
+          <CustomCard width="1050px" height="550px">
+          <div className='CharlieFrame'>
+              <div className="left-half">
+
+              <div className='MobileHead'>
+                  <h3>Keep your favourite<br/>people close to you</h3><br/><br/>
+                  <h6>Fringilla risus, luctus mauris orci auctor euismod<br/>iaculis luctus magna purus pretium ligula purus<br/>undo quaerat tempor sapien rutrum mauris<br/>quaerat ultrice
+                   </h6>
+                   <h6>Quaerat sodales sapien euismod purus blandit</h6>
+                   <h6>Nemo ipsam egestas volute turpis dolores undo<br/>ultrice aliquam quaerat at sodales sapien purus
+                   </h6>
+                   </div>
+               </div>
+
+              <div className="right-half">
+                 <div className='IconPaste'>
+                  <img src={Order} alt='Order Card'/>
+                  <img src={SittingWomen} alt='Sitting Women'/>
+                </div>
+           </div>
+           </div>
           </CustomCard>
         </div>
+
+
+
+
 
         <ShareMoment/>
         {/* <img src={Group} alt='Group Card'/> */}

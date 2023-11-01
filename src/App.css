@@ -378,6 +378,23 @@ margin-top: 10px;
 }
 
 
+.SecurityHeading h4{
+  text-align: center;
+  align-items: center;
+  width: 554px;
+height: 54px;
+flex-shrink: 0;
+  color: #000;
+font-family: Poppins;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+
+}
+
+
 .VerifiactionClass{
   width: 501.419px;
   height: 515.9px;

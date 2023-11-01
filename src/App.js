@@ -126,7 +126,7 @@ function App() {
               <div className="left-half">
 
               <div className='MobileHead'>
-                  <h3>Work smarter withpowerful automation</h3><br/>
+                  <h3>Work smarter with powerful automation</h3><br/>
                   <h6>Quaerat sodales sapien euismod blandit purus apurus ipsum primis in cubilia laoreet augue luctusmagna dolor luctus and egestas sapien egestasvitae nemo volute
                    </h6>
                    <WhiteCard/><br/>
